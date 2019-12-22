@@ -1,0 +1,4 @@
+# Editor Files
+*.swp
+*.swo
+.DS_Store

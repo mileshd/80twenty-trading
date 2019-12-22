@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Cinzel');
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.home__title {
+  margin-top: 25px;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.home__content {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.home__projects a {
+  color: black;
+}
+.home__projects a:hover, .home__projects a:focus {
+  text-decoration: none;
+}
+
+.project {
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  display: block;
+}
+.project:hover {
+  cursor: pointer;
+}
+.project .teaser {
+  font-size: 14px;
+}
+
+.project.wealth-engineer {
+  background: #d3ebbf;
+}
+.project.wealth-engineer:hover {
+  background: #e1f1d3;
+}
+
+.project__title {
+  font-size: 20px;
+}
+.project__description {
+}
