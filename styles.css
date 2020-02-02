@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Lora', serif;
+  background: #fafef7
 }
 
 .home__title {
@@ -41,8 +42,14 @@ body {
   background: #e1f1d3;
 }
 
+.content-line {
+  margin-bottom: 10px;
+}
+
 .project__title {
-  font-size: 20px;
+  font-size: 28px;
 }
 .project__description {
+  padding: 25px;
+  font-size: 22px;
 }
