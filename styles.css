@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Lora', serif;
-  background: #fafef7
+  /*background: #fafef7*/
 }
 
 .home__title {
@@ -13,6 +13,9 @@ body {
 .home__content {
   font-size: 22px;
   margin-bottom: 25px;
+}
+.content-line {
+  line-height: 1.75;
 }
 
 .home__projects a {
@@ -27,12 +30,14 @@ body {
   margin-bottom: 25px;
   border-radius: 5px;
   display: block;
+  height: 275px;
 }
 .project:hover {
   cursor: pointer;
 }
 .project .teaser {
   font-size: 14px;
+  margin-left: 10px;
 }
 
 .project.wealth-engineer {
@@ -41,15 +46,39 @@ body {
 .project.wealth-engineer:hover {
   background: #e1f1d3;
 }
-
-.content-line {
-  margin-bottom: 10px;
+.project.university {
+  background: #dec7e9;
 }
+/*Lighten by 10%*/
+.project.university:hover {
+  background: #e1cceb;
+}
+
 
 .project__title {
   font-size: 28px;
 }
 .project__description {
-  padding: 25px;
-  font-size: 22px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.page-footer {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .project {
+    height: 350px;
+  }
+  .project__title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project {
+    height: auto;
+  }
 }
